@@ -75,6 +75,7 @@ public class SnowFlake {
         System.out.println("SnowFlake ID Generation Test");
         System.out.println("----------------------------------");
         System.out.println("Generating 10 unique SnowFlake IDs:");
+        System.out.println("--------------AAAA--------------------");
         SnowFlake snowFlake = new SnowFlake(1, 1);
         for (int i = 0; i < 10; i++) {
             System.out.println(snowFlake.nextId());
