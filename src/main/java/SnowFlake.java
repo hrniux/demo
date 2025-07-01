@@ -73,6 +73,7 @@ public class SnowFlake {
 
     public static void main(String[] args) {
         System.out.println("SnowFlake ID Generation Test");
+        System.out.println("----------------------------------");
         SnowFlake snowFlake = new SnowFlake(1, 1);
         for (int i = 0; i < 10; i++) {
             System.out.println(snowFlake.nextId());
