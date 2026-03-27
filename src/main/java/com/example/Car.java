@@ -6,5 +6,6 @@ public class Car {
         System.out.println("Generating IDs for cars...");
         System.out.println("----------------------------------");
         System.out.println("Car ID: 12345");
+        System.out.println("Car ID: 67890");
     }
 }
