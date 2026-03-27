@@ -77,6 +77,7 @@ public class SnowFlake {
         System.out.println("Generating 10 unique SnowFlake IDs:");
         System.out.println("--------------AAAA--------------------");
         System.out.println("----------------------------------");
+        System.out.println("Timestamp (ms) | Datacenter ID | Machine ID | Sequence Number | Generated ID");
         SnowFlake snowFlake = new SnowFlake(1, 1);
         for (int i = 0; i < 10; i++) {
             System.out.println(snowFlake.nextId());
